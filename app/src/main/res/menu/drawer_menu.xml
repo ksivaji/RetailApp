@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/login_sign_up"
+            android:title="@string/login_sign_up"/>
+
+        <item
+            android:id="@+id/navigation_subheader_1"
+            android:title="@string/subheader_leads_market_place">
+            <menu>
+                <item
+                    android:id="@+id/leads_market_place_sub_item_1"
+                    android:title="@string/browse_leads_for_sale"/>
+                <item
+                    android:id="@+id/leads_market_place_sub_item_2"
+                    android:title="@string/my_published_leads"/>
+                <item
+                    android:id="@+id/leads_market_place_sub_item_3"
+                    android:title="@string/create_lead"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/navigation_subheader_2"
+            android:title="@string/subheader_leads_management">
+            <menu>
+                <item
+                    android:id="@+id/leads_management_sub_item_1"
+                    android:title="@string/my_leads"/>
+                <item
+                    android:id="@+id/leads_management_sub_item_2"
+                    android:title="@string/create_leads"/>
+                <item
+                    android:id="@+id/leads_management_sub_item_3"
+                    android:title="@string/my_imported_leads"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/navigation_subheader_3"
+            android:title="@string/subheader_contact_management">
+            <menu>
+                <item
+                    android:id="@+id/contact_management_sub_item_1"
+                    android:title="@string/my_contacts"/>
+                <item
+                    android:id="@+id/contact_management_sub_item_2"
+                    android:title="@string/create_contact"/>
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/navigation_subheader_4"
+            android:title="@string/subheader_more">
+            <menu>
+                <item
+                    android:id="@+id/more_sub_item_1"
+                    android:icon="@drawable/notifications"
+                    android:title="@string/notifications"/>
+                <item
+                    android:id="@+id/more_sub_item_2"
+                    android:title="@string/messages"/>
+                <item
+                    android:id="@+id/more_sub_item_3"
+                    android:title="@string/follow_ups"/>
+                <item
+                    android:id="@+id/more_sub_item_4"
+                    android:icon="@drawable/notes"
+                    android:title="@string/notes"/>
+                <item
+                    android:id="@+id/more_sub_item_5"
+                    android:icon="@drawable/settings"
+                    android:title="@string/account_setup_preferences"/>
+                <item
+                    android:id="@+id/more_sub_item_6"
+                    android:icon="@drawable/avatar"
+                    android:title="@string/invite_to_app"/>
+                <item
+                    android:id="@+id/more_sub_item_7"
+                    android:icon="@drawable/notifications"
+                    android:title="@string/all_activity"/>
+            </menu>
+        </item>
+
+    </group>
+
+
+</menu>

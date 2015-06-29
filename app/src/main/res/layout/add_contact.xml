@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:drawableRight="@drawable/arrow_right"
+            android:text="Lead name:Computer Procuring" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text="Name" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@null"
+                android:hint="Samuel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text="Designation" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@null"
+                android:hint="Engineer" />
+        </LinearLayout>
+
+        <View style="@style/HorizontalDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text="Email" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@null"
+                android:drawableRight="@android:drawable/ic_input_add"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text="Phone no" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@null"
+                android:drawableRight="@android:drawable/ic_input_add"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <View style="@style/HorizontalDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text="Location" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@null"
+                android:hint="Philadelphia"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <View style="@style/HorizontalDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/TextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text="Company" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:background="@null"
+                android:hint="Camlin Corporation"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <View style="@style/HorizontalDivider" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="match_parent"
+            android:background="@android:color/darker_gray"
+            android:text="Notes" />
+
+        <View style="@style/HorizontalDivider" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@null"
+            android:inputType="text" />
+
+        <View style="@style/HorizontalDivider" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Add Contact" />
+    </LinearLayout>
+</ScrollView>

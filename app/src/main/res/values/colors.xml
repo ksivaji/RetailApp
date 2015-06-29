@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#00CC00</color>
+    <color name="text_color">#303030</color>
+    <color name="unselected_text_color">#B8B8AD</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="tab_indicator_color">#B8B894</color>
+    <color name="grey_border">#A6A69C</color>
+    <color name="orange">#FF3300</color>
+    <color name="light_grey">#DFDFDB</color>
+    <color name="red">#FF0000</color>
+</resources>

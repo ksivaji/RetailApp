@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sliding_tab_height"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/tab_title_height"
+        android:gravity="center"
+        android:textColor="@color/tab_color_selector"
+        android:textSize="@dimen/tab_title_text_size" />
+
+</LinearLayout>

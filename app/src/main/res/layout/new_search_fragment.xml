@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_box_height"
+        style="@style/SearchEditTextStyle"
+        android:hint="@string/search_box_hint"
+        android:layout_margin="@dimen/search_box_margin"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/recent_search_section_height"
+        android:background="@color/light_grey">
+
+        <View
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/border_height"
+            android:background="@color/grey_border"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/recent_search_text_size"
+            android:padding="@dimen/recent_search_text_view_padding"
+            android:text="@string/recent_searches"/>
+
+        <ImageView
+            android:layout_width="@dimen/right_arrow_width"
+            android:layout_height="@dimen/right_arrow_height"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/right_arrow_padding"
+            android:src="@drawable/arrow_right"/>
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/border_height"
+            android:background="@color/grey_border"/>
+
+        </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/leads_recycler_view"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/section_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/drawer_sub_header_height"
+        android:background="@color/light_grey"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/drawer_subheader_left_padding"
+        android:singleLine="true"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/drawer_sub_header_text_size"
+        android:textStyle="bold" />
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_border"/>-->
+
+
+</LinearLayout>

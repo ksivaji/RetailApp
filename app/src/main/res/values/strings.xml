@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RetailTestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="subheader_leads_market_place">Leads Market Place</string>
+    <string name="browse_leads_for_sale">Browse Leads for Sale</string>
+    <string name="my_published_leads">My Published Leads</string>
+    <string name="create_lead">Create Lead</string>
+    <string name="login_sign_up">Login/Sign-up</string>
+    <string name="subheader_leads_management">Leads Management</string>
+    <string name="my_leads">My Leads</string>
+    <string name="create_leads">Create Leads</string>
+    <string name="my_imported_leads">My Imported Leads</string>
+    <string name="subheader_contact_management">Contact management</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="create_contact">Create Contact</string>
+    <string name="subheader_more">More</string>
+    <string name="notifications">Notifications</string>
+    <string name="messages">Messages</string>
+    <string name="follow_ups">Follow-ups</string>
+    <string name="notes">Notes</string>
+    <string name="account_setup_preferences">Account Setup/Preferences</string>
+    <string name="invite_to_app">Invite to MySalesConnect App</string>
+    <string name="all_activity">All My Activity</string>
+    <string name="navigation_drawer_menu">Menu</string>
+
+    <string-array name="drawer_items">
+        <item>@string/login_sign_up</item>
+        <item>@string/browse_leads_for_sale</item>
+        <item>@string/my_published_leads</item>
+        <item>@string/create_lead</item>
+        <item>@string/my_leads</item>
+        <item>@string/create_leads</item>
+        <item>@string/my_imported_leads</item>
+        <item>@string/my_contacts</item>
+        <item>@string/create_contact</item>
+        <item>@string/notifications</item>
+        <item>@string/messages</item>
+        <item>@string/follow_ups</item>
+        <item>@string/notes</item>
+        <item>@string/account_setup_preferences</item>
+        <item>@string/invite_to_app</item>
+        <item>@string/all_activity</item>
+    </string-array>
+    
+    <string name="new_search">New Search</string>
+    <string name="saved_leads">Saved Leads</string>
+    <string name="search_box_hint">Search leads for sale</string>
+    <string name="recent_searches">Recent searches - 2</string>
+    <string name="contact_intro">Contact Intro :&#160;</string>
+    <string name="seller_rating">Seller rating</string>
+    <string name="customer_verification">Customer verification :&#160;</string>
+    <string name="opportunity_size">Opportunity size :&#160;</string>
+    <string name="toolbar_title_leads_for_sale">Leads for sale</string>
+    <string name="toolbar_title_create_lead">Create lead</string>
+    <string name="toolbar_title_my_leads">My leads</string>
+    <string name="toolbar_title_add_contact">Add Contact</string>
+    <string name="toolbar_title_filter">Filter</string>
+    <string-array name="lead_type">
+        <item>New</item>
+        <item>Old</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

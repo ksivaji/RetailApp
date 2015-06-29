@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lead_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:padding="@dimen/leads_for_sale_list_item_padding"
+        android:textSize="@dimen/lead_name_text_size" />
+
+    <RelativeLayout
+        android:id="@+id/section_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/leads_for_sale_list_item_padding">
+
+        <TextView
+            android:id="@+id/contact_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/contact_intro"
+            android:textSize="@dimen/lead_details_text_size" />
+
+        <TextView
+            android:id="@+id/contact_intro_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/contact_intro"
+            android:textColor="@color/green"
+            android:textSize="@dimen/lead_details_text_size" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/lead_price_text_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/section_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/leads_for_sale_list_item_padding">
+
+        <TextView
+            android:id="@+id/customer_verification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/customer_verification"
+            android:textSize="@dimen/lead_details_text_size" />
+
+        <TextView
+            android:id="@+id/customer_verification_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/customer_verification"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/lead_details_text_size" />
+
+        <TextView
+            android:id="@+id/seller_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/seller_rating"
+            android:textSize="@dimen/seller_rating_text_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/section_three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/leads_for_sale_list_item_padding">
+
+        <TextView
+            android:id="@+id/opportunity_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/opportunity_size"
+            android:textSize="@dimen/lead_details_text_size" />
+
+        <TextView
+            android:id="@+id/opportunity_size_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/opportunity_size"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/lead_details_text_size" />
+
+        <RatingBar
+            android:id="@+id/seller_rating_bar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

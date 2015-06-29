@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:text="Expected close date" />
+
+    <TextView
+        android:id="@+id/select_date_textview"
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:hint="Select date" />
+
+    <TextView
+        style="@style/TextView"
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:text="Opportunity size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/opportunity_size_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0-30" />
+
+        <View style="@style/VerticalDivider" />
+
+        <TextView
+            android:id="@+id/opportunity_size_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="30-600" />
+
+        <View style="@style/VerticalDivider" />
+
+        <TextView
+            android:id="@+id/opportunity_size_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="600-1000" />
+    </LinearLayout>
+
+    <View style="@style/HorizontalDivider" />
+</LinearLayout>
